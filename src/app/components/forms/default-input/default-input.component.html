@@ -1,0 +1,9 @@
+<input
+  #input
+  class="new-todo"
+  type="text"
+  autofocus
+  [placeholder]="placeholder"
+  [(ngModel)]="myTask"
+  (keyup.enter)="onEnter(input.value)"
+/>
